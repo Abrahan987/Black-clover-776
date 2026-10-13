@@ -12,7 +12,7 @@
 
 <h1 align="center">Black - Clover</h1>
 <p align="center">
-  <img src="https://files.catbox.moe/30f5ik.jpg" width="300" alt="Black Clover">
+  <img src="https://raw.githubusercontent.com/Frimemoloxz/DataBase/main/1791852638655.jpeg" width="300" alt="Black Clover">
 </p>
 
 
@@ -106,7 +106,7 @@ El bot se encuentra en desarrollo constante. Si encuentras un problema, repórta
 ¿Quieres ejecutar Black Clover V777 en un servidor?
 
 <p align="center">
-  <a href="https://skyultraplus.com/">
+  <a href="https://dash.skyultraplus.com">
     <img src="https://img.shields.io/badge/☁️%20INSTALAR%20EN%20HOSTING-1E90FF?style=for-the-badge">
   </a>
 </p>
@@ -285,14 +285,14 @@ npm start
 |💬 WhatsApp     |https://wa.me/525544876071                           |
 |📸 Instagram    |https://instagram.com/_carlitos.zx                   |
 |📢 Canal Oficial|https://whatsapp.com/channel/0029VbB36XC8aKvQevh8Bp04|
-|☁️ Hosting      |https://skyultraplus.com/                     |
+|☁️ Hosting      |https://dash.skyultraplus.com                    |
 
 ![line](https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif)
 
 👤 Creador
 
 <p align="center">
-  <img src="https://tmpfiles.org/dl/wYA0K6co5MmL/file.jpg" width="180">
+  <img src="https://raw.githubusercontent.com/Frimemoloxz/DataBase/main/1791851876878.jpeg" width="180">
 </p>
 
 <p align="center">
