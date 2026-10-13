@@ -23,8 +23,8 @@
   <a href="https://wa.me/525544876071">
     <img title="WhatsApp" src="https://img.shields.io/badge/CARLOS_OFC-000?style=for-the-badge&logo=whatsapp&logoColor=25D366">
   </a>
-  <a href="https://instagram.com/_carlitos.zx">
-    <img title="Instagram" src="https://img.shields.io/badge/@_carlitos.zx-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
+  <a href="https://instagram.com/cxrlitos.7">
+    <img title="Instagram" src="https://img.shields.io/badge/@cxrlitos.7-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
   </a>
   <a href="https://whatsapp.com/channel/0029VbB36XC8aKvQevh8Bp04">
     <img title="Canal Oficial" src="https://img.shields.io/badge/CANAL_OFICIAL-1E90FF?style=for-the-badge&logo=whatsapp&logoColor=white">
@@ -283,7 +283,7 @@ npm start
 |💻 GitHub       |https://github.com/Thecarlos21                       |
 |📦 Repositorio  |https://github.com/Thecarlos21/Black-clover-777      |
 |💬 WhatsApp     |https://wa.me/525544876071                           |
-|📸 Instagram    |https://instagram.com/_carlitos.zx                   |
+|📸 Instagram    |https://instagram.com/cxrlitos.7                   |
 |📢 Canal Oficial|https://whatsapp.com/channel/0029VbB36XC8aKvQevh8Bp04|
 |☁️ Hosting      |https://dash.skyultraplus.com                    |
 
@@ -305,7 +305,7 @@ Creador y desarrollador de Black Clover
   <a href="https://github.com/Thecarlos21">
     <img src="https://img.shields.io/badge/GitHub-THECARLOS21-000?style=for-the-badge&logo=github">
   </a>
-  <a href="https://instagram.com/_carlitos.zx">
+  <a href="https://instagram.com/cxrlitos.7">
     <img src="https://img.shields.io/badge/Instagram-@_carlitos.zx-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
   </a>
 </p>
@@ -323,7 +323,7 @@ Puedes contactar al creador mediante WhatsApp o Instagram.
   <a href="https://wa.me/525544876071">
     <img src="https://img.shields.io/badge/💬%20CONTACTAR%20POR%20WHATSAPP-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
   </a>
-  <a href="https://instagram.com/_carlitos.zx">
+  <a href="https://instagram.com/cxrlitos.7">
     <img src="https://img.shields.io/badge/📸%20INSTAGRAM-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
   </a>
 </p>
