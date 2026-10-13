@@ -16,11 +16,6 @@
 </p>
 
 
-
-<p align="center">
-  <img src="https://files.catbox.moe/30f5ik.jpg" width="300" alt="Black Clover">
-</p>
-
 <p align="center">
   <a href="https://github.com/Thecarlos21/Black-clover-777">
     <img title="GitHub" src="https://img.shields.io/badge/GITHUB-THECARLOS21-000?style=for-the-badge&logo=github&logoColor=white">
@@ -45,7 +40,7 @@
   <img src="https://img.shields.io/badge/BAILEYS-6.7.9+-00BFFF?style=flat-square">
 </p>
 
-────────
+![line](https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif)
 
 ℹ️ Información importante
 
@@ -104,19 +99,19 @@ El bot se encuentra en desarrollo constante. Si encuentras un problema, repórta
 
 </details>
 
-────────
+![line](https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif)
 
 🌐 Hosting
 
 ¿Quieres ejecutar Black Clover V777 en un servidor?
 
 <p align="center">
-  <a href="https://panel2.skyultraplus.com/">
+  <a href="https://skyultraplus.com/">
     <img src="https://img.shields.io/badge/☁️%20INSTALAR%20EN%20HOSTING-1E90FF?style=for-the-badge">
   </a>
 </p>
 
-────────
+![line](https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif)
 
 📲 Instalar en Termux
 
@@ -154,13 +149,13 @@ npm start
 
 </details>
 
-────────
+![line](https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif)
 
 🚀 Instalación rápida
 
 git clone https://github.com/Thecarlos21/Black-clover-777 && cd Black-clover-777 && npm install && npm start
 
-────────
+![line](https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif)
 
 🔄 Activar nuevamente el Bot
 
@@ -174,7 +169,7 @@ npm start
 
 </details>
 
-────────
+![line](https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif)
 
 🧿 Obtener otro código QR
 
@@ -191,7 +186,7 @@ npm start
 
 </details>
 
-────────
+![line](https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif)
 
 🔮 Activar 24/7 en Termux
 
@@ -210,7 +205,7 @@ Para reiniciar:
 
 pm2 restart Black-Clover-V777
 
-────────
+![line](https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif)
 
 📤 Actualizar Black Clover V777
 
@@ -247,7 +242,7 @@ pm2 restart Black-Clover-V777
 
 </details>
 
-────────
+![line](https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif)
 
 ☁️ Instalar desde Cloud Shell
 
@@ -266,7 +261,7 @@ npm start
 
 </details>
 
-────────
+![line](https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif)
 
 🛠️ Tecnologías
 
@@ -279,7 +274,7 @@ npm start
   <img src="https://img.shields.io/badge/PM2-2B037A?style=for-the-badge&logo=pm2&logoColor=white">
 </p>
 
-────────
+![line](https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif)
 
 🔗 Enlaces Oficiales
 
@@ -290,14 +285,14 @@ npm start
 |💬 WhatsApp     |https://wa.me/525544876071                           |
 |📸 Instagram    |https://instagram.com/_carlitos.zx                   |
 |📢 Canal Oficial|https://whatsapp.com/channel/0029VbB36XC8aKvQevh8Bp04|
-|☁️ Hosting      |https://panel2.skyultraplus.com/                     |
+|☁️ Hosting      |https://skyultraplus.com/                     |
 
-────────
+![line](https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif)
 
 👤 Creador
 
 <p align="center">
-  <img src="https://files.catbox.moe/30f5ik.jpg" width="180">
+  <img src="https://tmpfiles.org/dl/wYA0K6co5MmL/file.jpg" width="180">
 </p>
 
 <p align="center">
@@ -317,7 +312,8 @@ Creador y desarrollador de Black Clover V777
   </a>
 </p>
 
-────────
+![line](https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif)
+
 
 💬 Soporte
 
@@ -334,41 +330,9 @@ Puedes contactar al creador mediante WhatsApp o Instagram.
   </a>
 </p>
 
-────────
 
-⭐ Apoya el proyecto
+![line](https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif)
 
-Si Black Clover V777 te sirve, puedes apoyar el proyecto de forma gratuita:
-
-⭐ Dale una estrella al repositorio.
-
-🍴 Haz un fork.
-
-📢 Comparte el proyecto.
-
-🐛 Reporta errores.
-
-💡 Envía sugerencias.
-
-<p align="center">
-  <a href="https://github.com/Thecarlos21/Black-clover-777">
-    <img src="https://img.shields.io/badge/⭐%20DAR%20ESTRELLA-000?style=for-the-badge&logo=github">
-  </a>
-</p>
-
-────────
-
-⚠️ Aviso
-
-Black Clover V777 es un proyecto independiente desarrollado con fines educativos y de entretenimiento.
-
-El proyecto no está afiliado, patrocinado ni respaldado por WhatsApp LLC.
-
-El usuario es responsable del uso que haga del bot y de cumplir las normas y condiciones aplicables de WhatsApp.
-
-No se garantiza el funcionamiento permanente de servicios externos, APIs o páginas de terceros utilizados por determinadas funciones.
-
-────────
 
 📊 Estadísticas del proyecto
 
@@ -380,7 +344,8 @@ No se garantiza el funcionamiento permanente de servicios externos, APIs o pági
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Thecarlos21&theme=tokyonight&hide_border=true">
 </p>
 
-────────
+![line](https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif)
+
 
 🧩 Contribuciones
 
@@ -394,17 +359,15 @@ No se garantiza el funcionamiento permanente de servicios externos, APIs o pági
 
 Toda contribución útil para mejorar el proyecto será bienvenida.
 
-────────
+![line](https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif)
 
-🖤 Black Clover V777
 
 <p align="center">
 
 🜛 𝐁𝐋𝐀𝐂𝐊 𝐂𝐋𝐎𝐕𝐄𝐑 𝐕777 🜛
 
-۞ OFC UPDATE ۞
+![line](https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif)
 
-@Thecarlos21
 
 </p>
 
@@ -417,7 +380,5 @@ Toda contribución útil para mejorar el proyecto será bienvenida.
 <p align="center">
 
 ⚡ Powered by The Legends 2026 ⚡
-
-🜛 THECARLOS21 🜛
 
 </p>
