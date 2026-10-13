@@ -297,9 +297,7 @@ npm start
 
 <p align="center">
 
-🜛 THECARLOS21 🜛
-
-Creador y desarrollador de Black Clover V777
+Creador y desarrollador de Black Clover
 
 </p>
 
