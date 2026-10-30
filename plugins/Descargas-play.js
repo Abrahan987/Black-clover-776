@@ -1,9 +1,12 @@
+
 import fetch from 'node-fetch'
 import yts from 'yt-search'
 
 const name = 'Descargas - black clover'
-const API_URL = 'https://api.delirius.online/download'
-const PENDING_TTL = 2 * 60 * 1000 // la selección 1/2 expira a los 2 minutos
+const API_AUDIO_URL = 'https://api.stellarwa.xyz/dl/ytmp3'
+const API_AUDIO_KEY = 'proyectsV2'
+const API_VIDEO_URL = 'https://api.delirius.online/download/ytmp4'
+const PENDING_TTL = 2 * 60 * 1000
 
 const pendientes = new Map()
 
@@ -17,7 +20,15 @@ const cleanFileName = title => {
     .slice(0, 100) || 'Descarga de YouTube'
 }
 
-// Busca por nombre en YouTube y devuelve el primer video válido
+const formatDuration = value => {
+  if (typeof value !== 'number') return value || ''
+
+  const minutes = Math.floor(value / 60)
+  const seconds = String(value % 60).padStart(2, '0')
+
+  return `${minutes}:${seconds}`
+}
+
 const buscarVideo = async query => {
   const result = await yts(query)
   const video = result?.videos?.find(v => v.seconds > 0)
@@ -36,24 +47,18 @@ const buscarVideo = async query => {
   }
 }
 
-// Si es un link lo usa directo; si es texto, lo busca
 const resolverVideo = async query => {
   if (isYoutubeUrl(query)) return { url: query }
   return buscarVideo(query)
 }
 
-const getApiData = async (url, type) => {
-  const endpoint = type === 'video' ? 'ytmp4' : 'ytmp3'
-
-  const response = await fetch(
-    `${API_URL}/${endpoint}?url=${encodeURIComponent(url)}`,
-    {
-      headers: {
-        Accept: 'application/json',
-        'User-Agent': 'Mozilla/5.0'
-      }
+const requestJson = async requestUrl => {
+  const response = await fetch(requestUrl, {
+    headers: {
+      Accept: 'application/json',
+      'User-Agent': 'Mozilla/5.0'
     }
-  )
+  })
 
   if (!response.ok) {
     throw new Error(`La API respondió con ${response.status}`)
@@ -75,10 +80,37 @@ const getApiData = async (url, type) => {
     )
   }
 
-  const result = data?.data || data
+  return data?.data || data
+}
+
+const getAudioData = async url => {
+  const params = new URLSearchParams({
+    url,
+    key: API_AUDIO_KEY
+  })
+
+  const result = await requestJson(`${API_AUDIO_URL}?${params.toString()}`)
+  const downloadUrl = result?.dl || result?.download || result?.url
+
+  if (!downloadUrl) {
+    throw new Error('La API no devolvió el enlace de descarga')
+  }
+
+  return {
+    url: downloadUrl,
+    title: result?.title || '',
+    quality: 'Auto',
+    duration: formatDuration(result?.duration)
+  }
+}
+
+const getVideoData = async url => {
+  const result = await requestJson(
+    `${API_VIDEO_URL}?url=${encodeURIComponent(url)}`
+  )
+
   const dl = result?.download
 
-  // En ytmp3 "download" es un string; por si en ytmp4 viene como objeto
   const downloadUrl =
     (typeof dl === 'string' ? dl : dl?.url) ||
     result?.dl ||
@@ -95,9 +127,12 @@ const getApiData = async (url, type) => {
       (typeof dl === 'object' && dl?.quality) ||
       result?.quality ||
       'Auto',
-    duration: result?.duration || ''
+    duration: formatDuration(result?.duration)
   }
 }
+
+const getApiData = (url, type) =>
+  type === 'video' ? getVideoData(url) : getAudioData(url)
 
 const downloadFile = async url => {
   const response = await fetch(url, {
@@ -191,7 +226,6 @@ const handler = async (m, { conn, args, command, usedPrefix }) => {
         time: Date.now()
       })
 
-      // Si mandó un link directo no tenemos datos del video todavía
       const info = video.title
         ? `
 🎵 *Título:* ${video.title}
@@ -235,7 +269,6 @@ https://www.instagram.com/cxrlitos.7
     }
   }
 
-  // ytmp3 / mp3 / ytmp4 / mp4: aceptan link o nombre
   const type = command === 'ytmp4' || command === 'mp4'
     ? 'video'
     : 'audio'
